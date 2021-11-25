@@ -9,7 +9,6 @@ const { width, height } = Dimensions.get('window');
 
 class ConfirmGoogleCaptcha extends Component {
     render() {
-        let { show } = this.state;
         let { siteKey, baseUrl, languageCode, onMessage, cancelButtonText } = this.props;
         return (
             <View style={styles.wrapper}>
